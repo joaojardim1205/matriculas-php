@@ -1,4 +1,8 @@
 <?php
+include_once("conexaodb.php");
+?>
+
+<?php
 var_dump($_GET);
 
 $nome_usuario = $_GET["nome_usuario"];
